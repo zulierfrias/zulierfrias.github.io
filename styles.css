@@ -101,3 +101,38 @@ button {
 .hidden {
     display: none;
 }
+
+/* Mobile-first: nav hidden by default */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  
+  position: absolute;
+  top: 60px; /* below header */
+  right: 20px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Show menu when open */
+.nav-links.open {
+  display: flex;
+}
+
+/* Show menu on larger screens */
+@media screen and (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    border: none;
+    padding: 0;
+    gap: 1.5rem;
+  }
+}
