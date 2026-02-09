@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header-text {
@@ -28,6 +29,10 @@ header {
     margin: 0;
     font-size: 0.9rem;
     opacity: 0.8;
+}
+
+.menu-container {
+    position: relative;
 }
 
 .nav-links {
@@ -107,8 +112,8 @@ button {
   gap: 1rem;
   
   position: absolute;
-  top: 60px; /* below header */
-  right: 0px;
+  top: 0; /* below header */
+  right: 100%;
   width: 150px;
 
   padding: 1rem;
