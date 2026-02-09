@@ -8,8 +8,11 @@ buttons.forEach(button => {
 });
 
 const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+const navLinks = document.querySelector('.nav-links');
 
-menuToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-});
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener("click", () => {
+    console.log("Hamburger clicked!");
+    navLinks.classList.toggle("open");
+  });
+}

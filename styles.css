@@ -32,15 +32,13 @@ header {
 
 .nav-links {
     list-style: none;
-    display: flex;
-    gap: 1.5rem;
     margin: 0;
     padding: 0;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: inherit;
+    color: #222;
     font-weight: 500;
 }
 
@@ -110,10 +108,14 @@ button {
   
   position: absolute;
   top: 60px; /* below header */
-  right: 20px;
+  right: 0px;
+  width: 150px;
+
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 /* Show menu when open */
@@ -130,9 +132,12 @@ button {
   .nav-links {
     display: flex !important;
     flex-direction: row;
-    position: static;
+    position: absolute;
     border: none;
     padding: 0;
     gap: 1.5rem;
+    width: auto;
+    background: none;
+    z-index: auto;
   }
 }
