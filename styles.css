@@ -43,8 +43,9 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -119,7 +120,7 @@ button {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #000000;
   z-index: 1000;
 }
 
