@@ -72,6 +72,6 @@ Navigate to the project folder:
 
 Feel free to reach out via email or GitHub for collaborations or questions:
 
-Email: youremail@example.com
+Email: frias.zulier@gmail.com
 
-GitHub: github.com/YOUR_USERNAME
+GitHub: github.com/YOzulierfrias
