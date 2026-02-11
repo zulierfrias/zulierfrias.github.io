@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my web development skills, projects, and provides a way to get in touch with me.
 
 ## 🌐 Live Site
-[View the live portfolio](https://yourusername.github.io/portfolio-website/)
+[View the live portfolio](https://zulierfrias.github.io/portfolio-website/)
 
 ---
 
@@ -56,7 +56,7 @@ Portfolio Website/
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/portfolio-website.git
+git clone https://github.com/zulierfrias/portfolio-website.git
 
 2. Navigate to the project folder:
 
